@@ -1,0 +1,8 @@
+/var/log/pingtest {
+    missingok
+    daily
+    delaycompress
+    rotate 10
+    copytruncate
+    su root syslog
+}
