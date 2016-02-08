@@ -6,16 +6,16 @@ This utility helps identify systemwide pauses. It continuously pings the loopbac
 
 Once installed, the service will automatically start when the machine starts. It can be manually controlled via upstart:
 
- start pingtest
+    start pingtest
 
- stop pingtest
+    stop pingtest
 
 
 ## Building
 
 Install python and run:
 
- python build/build.py
+    python build/build.py
 
 The resulting installable will be found in the dist/ folder.
 
@@ -24,4 +24,4 @@ The resulting installable will be found in the dist/ folder.
 
 Install the package via dpkg:
 
- dpkg -i pingtest_1.0_all.deb
+    dpkg -i pingtest_1.0_all.deb
